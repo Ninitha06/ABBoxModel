@@ -1,9 +1,8 @@
 class Pig {
     constructor(x, y) {
       var options = {
-          'restitution':0.6,
-          'friction':1.0,
-          'density':1.0
+          'restitution':0.4,
+          'friction':0.5,
       }
       this.body = Bodies.rectangle(x, y, 50, 50, options);
       this.width = 50;

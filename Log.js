@@ -1,9 +1,8 @@
 class Log {
     constructor(x, y, height, angle) {
       var options = {
-          'restitution':0.6,
-          'friction':1.0,
-          'density':1.0
+          'restitution':0.4,
+          'friction':0.5,
       }
       this.body = Bodies.rectangle(x, y, 20, height, options);
       this.width = 20;
